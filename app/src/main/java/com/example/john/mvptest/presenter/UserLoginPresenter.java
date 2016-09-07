@@ -11,9 +11,9 @@ import com.example.john.mvptest.net.UserLoginNet;
  * 业务逻辑---->P
  */
 public class UserLoginPresenter {
-    private MainActivity view;
+    private UserLogin view;
 
-    public UserLoginPresenter(MainActivity view) {
+    public UserLoginPresenter(UserLogin view) {
         this.view = view;
     }
 

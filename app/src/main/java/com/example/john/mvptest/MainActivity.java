@@ -9,12 +9,13 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.john.mvptest.bean.User;
+import com.example.john.mvptest.presenter.UserLogin;
 import com.example.john.mvptest.presenter.UserLoginPresenter;
 
 /**
  * 这是MVP中的 V --->只用来展示页面
  */
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements UserLogin {
 
     private EditText et_userName;
     private EditText et_passWord;
