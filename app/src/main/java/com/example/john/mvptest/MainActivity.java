@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "请重新输入", Toast.LENGTH_SHORT).show();
                 }
             }
+
         });
     }
 
